@@ -1,9 +1,9 @@
 <h1 align="center"><img alt="Caire Logo" src="https://user-images.githubusercontent.com/883386/51555990-a1762600-1e81-11e9-9a6a-0cd815870358.png" height="180"></h1>
 
 [![Build Status](https://travis-ci.org/esimov/caire.svg?branch=master)](https://travis-ci.org/esimov/caire)
-[![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](https://godoc.org/github.com/esimov/caire)
+[![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](https://godoc.org/github.com/qorpress/caire)
 [![license](https://img.shields.io/github/license/esimov/caire)](./LICENSE)
-[![release](https://img.shields.io/badge/release-v1.2.5-blue.svg)](https://github.com/esimov/caire/releases/tag/v1.2.5)
+[![release](https://img.shields.io/badge/release-v1.2.5-blue.svg)](https://github.com/qorpress/caire/releases/tag/v1.2.5)
 [![homebrew](https://img.shields.io/badge/homebrew-v1.2.5-orange.svg)](https://github.com/esimov/homebrew-caire)
 [![snapcraft](https://img.shields.io/badge/snapcraft-v1.2.5-green.svg)](https://snapcraft.io/caire)
 
@@ -62,7 +62,7 @@ $ export PATH="$PATH:$GOPATH/bin"
 Next download the project and build the binary file.
 
 ```bash
-$ go get -u -f github.com/esimov/caire/cmd/caire
+$ go get -u -f github.com/qorpress/caire/cmd/caire
 $ go install
 ```
 
@@ -141,7 +141,7 @@ $ caire -out out.jpg < input/source.jpg
 ```
 
 ### Caire integrations
-- [x] Caire can be used as a servesless function via OpenFaaS: https://github.com/esimov/caire-openfaas
+- [x] Caire can be used as a servesless function via OpenFaaS: https://github.com/qorpress/caire-openfaas
 - [x] Caire can also be used as a `snap` function (https://snapcraft.io/caire): `$ snap run caire --h`
 
 <a href="https://snapcraft.io/caire"><img src="https://raw.githubusercontent.com/snapcore/snap-store-badges/master/EN/%5BEN%5D-snap-store-white-uneditable.png" alt="snapcraft caire"></a>

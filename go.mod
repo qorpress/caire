@@ -1,4 +1,4 @@
-module github.com/esimov/caire
+module github.com/qorpress/caire
 
 go 1.12
 

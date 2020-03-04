@@ -9,8 +9,8 @@ base: core18
 parts:
   caire:
     plugin: go
-    source: https://github.com/esimov/caire.git
-    go-importpath: github.com/esimov/caire
+    source: https://github.com/qorpress/caire.git
+    go-importpath: github.com/qorpress/caire
     build-packages:
       - build-essential
 apps:

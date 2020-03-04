@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/esimov/caire"
+	"github.com/qorpress/caire"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

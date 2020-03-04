@@ -13,7 +13,7 @@ In case you wish to integrate the API in a self constructed environment here is 
 
 	import (
 		"fmt"
-		"github.com/esimov/caire"
+		"github.com/qorpress/caire"
 	)
 
 	func main() {
